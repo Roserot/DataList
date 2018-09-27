@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,700');
+
+.main {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main .table {
+    border-collapse: collapse;
+    margin-top: 30px;
+    border-radius: 50% ;
+}
+.main .table thead th:first-child{
+    border-radius: 10px 0 0 0;
+}
+.main .table thead th:last-child {
+    border-radius: 0 10px 0 0;
+}
+.main .table tbody tr:last-child td:first-child{
+    border-radius: 0 0 0 10px;
+}
+.main .table tbody tr:last-child td:last-child{
+    border-radius: 0 0 10px 0;
+}
+
+.main .table thead,
+.main .table tbody tr td:nth-child(-n + 2){
+  background: #AFCDE7;
+    color: #fff;
+}
+.main .table tbody td {
+    background: #D8E6F3;
+}
+
+
+.main .table th,
+.main .table td {
+    border: 1px solid #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.main .table th{
+    font-weight: bold;
+    padding: 12px 8px;
+}
+.main .table .tableTitles td {
+    padding: 12px 8px;
+}
+
+.main .table span {
+    width: 50%;
+    display: inline-block;
+    padding: 8px;
+}
+.main .table td span:first-child {
+    border-right: 1px solid #fff;
+}
+

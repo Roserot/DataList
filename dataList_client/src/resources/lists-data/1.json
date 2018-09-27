@@ -1,0 +1,22 @@
+{
+  "s": {
+    "success": 1,
+    "answerSpeed": 4,
+    "theme": 1,
+    "difficulty": 1,
+    "speed": 2,
+    "examplesNum": 1,
+    "turbo": 0,
+    "doublePower": 0
+  },
+  "f": {
+    "success": 0,
+    "answerSpeed": 15.353,
+    "theme": 1,
+    "difficulty": 1,
+    "speed": 2,
+    "examplesNum": 1,
+    "turbo": 0,
+    "doublePower": 0
+  }
+}
